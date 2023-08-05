@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<PackageId>Server</PackageId>
+		<TargetFramework>net7.0</TargetFramework>
+		<PreserveCompilationContext>true</PreserveCompilationContext>
+		<AssemblyName>app</AssemblyName>
+		<OutputType>Exe</OutputType>
+		<PublishAot>true</PublishAot>
+		<TrimMode>Link</TrimMode>
+		<RunAOTCompilation>True</RunAOTCompilation>
+		<PublishTrimmed>true</PublishTrimmed>
+		<TrimmerRemoveSymbols>true</TrimmerRemoveSymbols>
+		<PublishReadyToRunEmitSymbols>false</PublishReadyToRunEmitSymbols>
+		<DebuggerSupport>false</DebuggerSupport>
+		<EnableUnsafeUTF7Encoding>true</EnableUnsafeUTF7Encoding>
+		<InvariantGlobalization>true</InvariantGlobalization>
+		<HttpActivityPropagationSupport>false</HttpActivityPropagationSupport>
+		<MetadataUpdaterSupport>true</MetadataUpdaterSupport>
+		<UseSystemResourceKeys>true</UseSystemResourceKeys>
+		<IlcDisableReflection>false</IlcDisableReflection>
+		<IsPublishable>True</IsPublishable>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<SignAssembly>False</SignAssembly>
+		<Authors>Wlniao Soft</Authors>
+		<Company>重庆以名科技有限公司</Company>
+		<Description>文件下载服务工具</Description>
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="Wlniao.Mini" Version="1.0.2" />
+	</ItemGroup>
+</Project>
